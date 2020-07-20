@@ -22,4 +22,4 @@ jobs:
 
     # Requires node in the vm
     - name: Run schema check
-      run: npx apollo service:check --graph=github-action-test 
+      run: npx apollo service:check --graph=github-action-test --localSchemaFile=schema.graphql
