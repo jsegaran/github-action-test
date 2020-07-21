@@ -28,4 +28,4 @@ jobs:
     - name: Run schema check
       env: # Apollo Key as an environment variable
         APOLLO_KEY: ${{ secrets.APOLLO_KEY }}
-      run: npx apollo service:check --graph=github-action-test --localSchemaFile=schema.graphql
+      run: npx apollo service:check --graph=github-action-test-2 --localSchemaFile=schema.graphql
